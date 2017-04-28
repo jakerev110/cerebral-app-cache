@@ -1,0 +1,34 @@
+{
+  "name": "cerebral-app-cache",
+  "version": "0.1.0",
+  "description": "A javascript wrapper for syncing data between an App chains and a PouchDb cache.",
+  "main": "cerebralCache.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakerev110/cerebral-app-cache.git"
+  },
+  "keywords": [
+    "cache",
+    "cerebral",
+    "pouchdb",
+    "oada"
+  ],
+  "author": "Jake Chung jakerev110@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakerev110/cerebral-app-cache/issues"
+  },
+  "homepage": "https://github.com/jakerev110/cerebral-app-cache#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "json-pointer": "^0.6.0",
+    "superagent": "^3.5.2",
+    "superagent-promise": "^1.1.0",
+    "oada-app-cache": "^0.1.1",
+    "cerebral": "2.0.0-b-alpha.a54303bb",
+    "uuid": "^2.0.1",
+  }
+}
